@@ -1,0 +1,27 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Chat Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "keywords": [
+    "chat",
+    "live-chat",
+    "real-time-chat"
+  ],
+  "author": "Yashwant Rautela",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "koa": "^2.13.0",
+    "koa-router": "^10.0.0",
+    "koa-socket-2": "^2.0.0",
+    "koa-static": "^5.0.0",
+    "socket.io": "^3.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
